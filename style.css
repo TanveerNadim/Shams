@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+
+</style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.back{
+    background:linear-gradient(to right,#4264af,aqua);
+    height:580px;
+}
+.name h2{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 10rem;
+    color:white;
+    font-size: 25px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35rem;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 10px 30px;
+    margin-top:2rem;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+    font-weight: bold;
+}
+
+.navbar ul li:hover{
+    background-color: rgba(0, 0, 0, 0.109);
+}
+
+/**********************************Box********************************************/
+
+.box{
+    background:linear-gradient(to right ,rgb(71, 233, 233),black);
+    height: 100vh;
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    box-shadow: 0 0 20px white , 0 0 40px white;
+    border-radius: 10px;
+   
+}
+
+/*****************************************Head******************************************/
+
+.head{
+    margin-top:6rem;
+    position: absolute;
+    margin-left: 10rem;
+}
+.img img{
+    height: auto;
+    width:360px;
+    margin-left: 43.4rem;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+ 
+
+}
+.head h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: -1.5rem;
+    color:black;
+}
+
+
+/*********************************************head h4************************************/
+
+.head h4{
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    line-height: 2.6rem;
+    color:black;
+}
+
+/****************************************head p**********************************************/
+
+.head p{
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.6rem;
+    color: black;
+  
+}
+
+/*****************************head p1********************************/
+
+.head p1{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 520;
+  
+ 
+}
+
+/***************************button**********************************/
+
+.head button{
+    margin-top: 3rem;
+    position:absolute;
+    padding:10px 30px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: -28rem;
+}
+.head button:hover{
+    background-color:aqua;
+    cursor: pointer;
+    box-shadow: 0 0 10px #2197f3 , 0 0 40px #2197f3 , 0 0 120px #2197f3; 
+  
+}
+/******************************************About Me**************************************/
+.About{
+    background-color:antiquewhite;
+    margin-top: -1rem;
+    padding:3rem;
+   
+}
+.box1{
+    background-color:gray;
+    height:430px;
+    margin-top: -2.5rem;
+    width:1150px;
+    margin-left: 3.7rem;
+    border-radius: 15px;
+}
+
+.box1:hover{
+    transform: scale(1.03);
+}
+.head1{
+    display: flex;
+}
+.head1 h2{
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 15rem;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color:black;
+   
+}
+
+.img1 img{
+    height:500px;
+    margin-top:-5.2rem;
+}
+
+.head1 p{
+    margin-top: 7rem;
+    margin-left: 1rem;
+    margin-right: 37px;
+    line-height: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/**********************************Button*************************/
+.button button{
+    margin-top: 18rem; 
+    margin-left: -35rem;
+    padding:10px 30px;
+    cursor: pointer;
+    color:black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button button:hover{
+    background-color: black;
+    color:white;
+}
+
+/*************************************box2*********************************************/
+
+.box2{
+    background-color: black;
+    height:650px;
+    padding:10px 10px;
+    margin-top: 5px;
+}
+
+.services h2{
+    color:rgb(248, 5, 45);
+    text-align: center;
+    margin-top: 4rem;
+    font-family:sans-serif;
+    font-size: 45px;
+}
+
+.services p{
+    color:white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 17px;
+}
+
+/******************************grid************************************/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   position: absolute;
+   margin-left: 5rem;
+   margin-top: 2rem;
+
+   
+}
+
+/******************************Box3**********************************/
+.grid1{
+ 
+    height: 400px;
+    width:300px;
+    margin-top: 2rem;
+    background-color:rgba(255, 255, 255, 0.109);
+    position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(236, 236, 236, 0.274) ,  0 0 20px rgba(202, 202, 202, 0.342);
+    
+}
+.grid1:hover{
+    transform: scale(1.03);
+}
+
+.grid1 button{
+    margin-top: 3.8rem;
+    margin-left: 4rem;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 220, 248);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grid1 button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.grid1 h4{
+    color: white;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    font-family:'Times New Roman';
+    font-weight: normal;
+}
+
+.grid1 h2{
+    color:rgb(201, 52, 77);
+   text-align: center;
+   margin-top: 2rem;
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Roboto', sans-serif;  
+}
+
+/***********************box4****************************************/
+
+.grid2{
+    height: 400px;
+    width:300px;
+    margin-top: 2rem;
+    background-color:rgba(255, 255, 255, 0.109);
+    position:absolute;
+    border-radius: 10px;
+    margin-left: 27rem;
+    box-shadow: 0 0 20px rgba(236, 236, 236, 0.274) ,  0 0 20px rgba(202, 202, 202, 0.342);
+}
+.grid2:hover{
+    transform: scale(1.03);
+}
+.grid2 button{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 220, 248);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grid2 button:hover{
+    background-color: rgb(6, 220, 248);
+    cursor: pointer;
+}
+   
+.grid2 h2{
+    color:rgb(201, 52, 77);
+   text-align: center;
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 2rem;
+}
+.grid2 h4{
+    color: white;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    font-family:'Times New Roman';
+    font-weight: normal;
+}
+
+/*************************************Box5*********************************/
+
+.grid3{
+    height: 400px;
+    width:300px;
+    margin-top: 2rem;
+    background-color:rgba(255, 255, 255, 0.109);
+    position:absolute;
+    border-radius: 10px;
+    margin-left: 55rem;
+    box-shadow: 0 0 20px rgba(236, 236, 236, 0.274) ,  0 0 20px rgba(202, 202, 202, 0.342);
+}
+.grid3:hover{
+    transform: scale(1.03);
+}
+.grid3 h2{
+    color:rgb(201, 52, 77);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+.grid3 button{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 220, 248);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grid3 button:hover{
+    background-color: rgb(33, 233, 233);
+    cursor: pointer;
+}
+.grid3 h4{
+    color: white;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    font-family:'Times New Roman';
+    font-weight: normal;
+}
+
+/********************************box10**************************************/
+
+.box10{
+    background-color: black;
+    height: 580px;
+    padding: 2rem;
+  
+}
+.head6{
+    background-color:rgba(255, 255, 255, 0.109);
+    height:350px;
+    width:1350px;
+    margin-left:-10rem;
+
+}
+
+.head4 h2{
+    color: white;
+    margin-top:5rem;
+    position: absolute;
+    margin-left: 24rem;
+    font-family: 'Dancing Script', cursive;
+   color: rgb(241, 10, 49);
+    font-size: 45px; 
+}
+
+.head4 button{
+    margin-top: 11rem;
+    margin-left: 35rem;
+    padding: 10px 30px;
+    border-radius: 55px;
+    border: 2px solid rgb(247, 11, 50);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+ 
+}
+.head4 button:hover{
+    background-color: rgb(228, 16, 51);
+    cursor: pointer;
+}
+
+/*******************************Contract*****************************/
+
+
+.Contract h2{
+    text-align: center;
+    margin-left: 31rem;
+    font-size: 35px;
+    margin-top: -13rem;
+    color:rgb(255, 0, 149);
+    position: absolute;
+     font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.Contract h5{
+    margin-left: 32rem;
+    margin-top: -9rem;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+
+}
+
+.fb{
+    margin-left: 25rem;
+    font-size: 2.5rem;
+    margin-top: -1.1rem;
+}
+.fb i{
+    color:#4267B2;
+    cursor: pointer;
+    background-color: white;
+}
+
+/************************twitter*********************************/
+
+.twitter{
+    margin-left: 30rem;
+    font-size: 2.5rem;
+    margin-top: -3.0rem;
+}
+.twitter i{
+    color:#0077b5;
+    cursor: pointer;
+    background-color: white;
+}
+
+/*****************************Instragram*****************************/
+
+.social{
+   margin-left: 9rem;
+   margin-top: -3.6rem;
+   position: absolute;
+}
+
+.Ins{
+    margin-left: 35rem;
+    font-size: 2.5rem;
+    margin-top: -3.0rem;
+}
+.Ins i{
+    color:red;
+    background:linear-gradient(yellow,orangered);
+    cursor: pointer;
+}
+
+/*****************Linkedin************************/
+.Link{
+    margin-left: 40rem;
+    font-size: 2.5rem;
+    margin-top: -3.0rem;
+}
+.Link i{
+   color:#0077b5;
+   cursor: pointer;
+}
+
+
+
